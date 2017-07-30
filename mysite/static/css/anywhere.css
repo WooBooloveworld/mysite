@@ -1,11 +1,17 @@
 /* @generated */body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0}*,body{font-family:'Hiragino Sans GB',Helvetica,Arial,sans-serif}
-body{color:#333;background:#FFF;font-size:12px;line-height:1.5}
+body{color:#eff4fa;    background: -webkit-linear-gradient(rgba(197,214,234,0), rgba(197,214,234,1)); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(rgba(197,214,234,0), rgba(197,214,234,1)); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(rgba(197,214,234,0), rgba(197,214,234,1)); /* Firefox 3.6 - 15 */
+    background: linear-gradient(rgba(197,214,234,0), rgba(197,214,234,1)); /* 标准的语法（必须放在最后） */
+;font-size:12px;line-height:1.5}
 th,td{text-align:left;vertical-align:top}
 h1,h2,h3,h4,h5,h6{font-size:1em;font-weight:normal}
 font{font-size:12px}
 a{color:#069;text-decoration:none}
 a:hover{text-decoration:underline}
 li{list-style:none}
+
+
 .hide{display:none}
 .fix:after{content:".";display:block;height:0;clear:both;visibility:hidden}*html .fix{zoom:1}.fix{display:block;min-height:1%}
 .gui-block-close{position:relative;display:inline-block;overflow:hidden;_zoom:1;width:16px;height:16px;line-height:16px;vertical-align:text-bottom;vertical-align:-5px\9;*vertical-align:0;_vertical-align:2px;color:#999;text-indent:-9999px;text-align:center;text-indent:0\9;font-weight:bold;text-decoration:none}
@@ -13,16 +19,23 @@ li{list-style:none}
 .gui-block-close::before{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);-ms-transform:rotate(45deg);transform:rotate(45deg)}.gui-block-close::after{-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);-ms-transform:rotate(-45deg);transform:rotate(-45deg)}.tooltip{padding:7px;background-color:#fff;border:1px solid #d9d9d9;box-shadow:2px 2px 1px rgba(0,0,0,0.05),-2px -2px 1px rgba(0,0,0,0.05),2px -2px 1px rgba(0,0,0,0.05),-2px 2px 1px rgba(0,0,0,0.05);border-radius:1px}.tooltip p{width:160px;white-space:normal;overflow:hidden}.tooltip .tooltip-favorate-desc{font-size:12px;width:163px;word-wrap:break-word;font-family:Microsoft YaHei}.tooltip .tooltip-favorate-desc span{color:#666}.tooltip .tooltip-favorate-desc .high_light{font-family:Microsoft YaHei}b.tooltip-up{border-bottom-color:#b2b196!important}b.tooltip-down{border-top-color:#b2b196!important}b.tooltip-left{border-right-color:#b2b196!important}b.tooltip-right{border-left-color:#b2b196!important}s.tooltip-up{border-bottom-color:#fff!important}s.tooltip-down{border-top-color:#fff!important}s.tooltip-left{border-right-color:#fff!important}s.tooltip-right{border-left-color:#fff!important}
 
 .container{min-width:1000px;overflow:hidden}
-.wall{height:230px;width:100%;left:0;}
-.wall{background:url(/static/img/banner6.png) no-repeat top center #d5effa}
-.walllist{margin:-130px auto 30px;width:1000px;background-color:#FFF}
+.header{margin:0 auto;width:100%;height:62px;overflow:hidden;zoom:1;border-bottom:1px solid #DCDCDC;background:#fff;}
+.inner{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;width:1000px;height:52px;padding:0 16px;margin:0 auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center;transition:-webkit-transform .3s;transition:transform .3s;transition:transform .3s,-webkit-transform .3s}
+.header_logo{position:absolute;width:282px;height:35px;top:14px;left:13px;text-indent:-9999em;background-size:110px 35px;background-repeat:no-repeat;background-image:url(/static/img/shopshop.png)}
+.header_link{position:absolute;overflow:hidden;top:16px;right:20px;line-height:30px;text-align:right;color:#4F4F4F;}
+.header a,.footer a{color:#4F4F4F;}
 
-.wall2{position:relative;padding:0;height:197px;border:1px solid #e9e9e9;background-color:#f5f5f5}
+
+.wall{height:200px;width:100%;left:0}
+
+.walllist{margin:-135px auto 30px;width:1000px;}
+
+.wall2{position:relative;padding:0;height:191px;background-color:#f5f5f5}
 .recommendlist{padding:15px 0;width:638px}
 .recommendlist li{float:left;padding:0 0 0 20px;width:139px;height:45px;line-height:25px;overflow:hidden}
-.recommendlist li a{color:#4F4F4F}
+.recommendlist li a{color:#4F4F4F;margin-right:8px}
 .recommendlist li img{margin-right:8px;vertical-align:middle;border-radius:3px}
-.searchengine-all{position:absolute;z-index:1;bottom:-1px;right:-1px;padding-left:10px;background:url(/static/img/icons.png) no-repeat 4px -470px}
+.searchengine-all{position:absolute;z-index:1;bottom:0px;right:0px;padding-left:10px;background:url(/static/img/icons.png) no-repeat 4px -470px}
 .searchengine{padding:5px 20px;width:320px;height:175px;background-color:#FFF;border-top:1px solid #e9e9e9;border-left:1px solid #e9e9e9}
 .searchengine form{padding:15.5px 0;height:30px;line-height:35px}
 .searchengine form label{float:left;_display:inline;margin-right:12px;width:112px;height:35px;text-indent:-1024px}
@@ -33,14 +46,11 @@ li{list-style:none}
 .searchengine-txt:focus{background-position:0 -865px}
 .searchengine-submit{float:left;margin-left:-5px;width:23px;height:25px;text-indent:-9999px;cursor:pointer;background:url(/static/img/icons.png) no-repeat -163px -891px;border:0}
 .searchengine-submit:hover{background-position:-163px -865px}
+	
 
-.vertical-menu {width: 50px;position:fixed;right:231px;bottom:31.2%;}
-.vertical-menu a {background-color: #eee;color:#6C6C6C;display: block;padding: 10px;text-decoration: none}
-.vertical-menu a:hover {background-color: #ccc;}
-
-.title-all{margin-top:-7px;border-bottom:3px solid #f3f3f3}
+.title-all{margin-top:-7px;border-bottom:1px solid #f3f3f3}
 .title{overflow:hidden;margin-top:20px;width:100%;height:45px;line-height:40px;border-bottom:1px solid #d7d7d7}
-.title h2{float:right;margin-right:10px;font:500 24px/40px 'Hiragino Sans GB','SimHei',Helvetica,Arial,sans-serif;color:#00C438}
+.title h2{float:right;margin-right:10px;font:500 24px/40px 'Hiragino Sans GB','SimHei',Helvetica,Arial,sans-serif;color:#2E9FE0}
 .title-label{float:right;margin-right:10px;width:32px;height:40px;text-indent:-9999px;background:url(/static/img/icons.png) no-repeat -126px 0}
 .title-label:hover{background-position:-167px 0}
 .title-label.open{background-position:-126px -40px}
@@ -48,18 +58,18 @@ li{list-style:none}
 
 .kind-all{width:100%;height:auto;clear:both}
 .kinds{width:1020px}
-.kind{float:left;_display:inline;margin-right:20px;padding:20px 0 80px 10px;width:480px;height:60px;color:#666;position:relative}
-.kind1{float:left;_display:inline;margin-right:20px;padding:20px 0 80px 10px;width:480px;height:60px;color:#666;position:relative}
-.kind h3{float:left;cursor:pointer;margin-top:2px;_margin-top:6px;padding-left:23px;width:89px;line-height:22px;font-weight:bold}
-.kind1 h3{float:left;cursor:pointer;margin-top:2px;_margin-top:6px;padding-left:23px;width:89px;line-height:22px;font-weight:bold}
+.kind{float:left;_display:inline;margin-right:20px;padding:20px 0 80px 10px;width:480px;height:30px;color:#666;position:relative}
+.kind1{float:left;_display:inline;margin-right:20px;padding:20px 0 80px 10px;width:480px;height:0px;color:#666;position:relative}
+.kind h3{float:left;cursor:pointer;font-size:12.5px;margin-top:2px;margin-top:4px;padding-left:23px;width:89px;line-height:22px;font-weight:bold}
+.kind1 h3{float:left;cursor:pointer;margin-top:2px;font-size:12.5px;margin-top:4px;padding-left:23px;width:89px;line-height:22px;font-weight:bold}
 .kind h3 b{display:inline-block;margin:-3px 8px 0 -22px;*margin-top:0;width:14px;height:14px;vertical-align:middle;background:url(/static/img/icons.png) no-repeat;border-radius:20px}
 .kind1 h3 b{display:inline-block;margin:-3px 8px 0 -22px;*margin-top:0;width:14px;height:14px;vertical-align:middle;background:url(/static/img/icons.png) no-repeat;border-radius:20px}
 .kind h3 s{width:0;height:0;font-size:0;margin-left:5px;vertical-align:middle;border-width:3px;border-style:solid dashed dashed dashed;border-color:#666 transparent transparent transparent}
 .kind1 h3 s{width:0;height:0;font-size:0;margin-left:5px;vertical-align:middle;border-width:3px;border-style:solid dashed dashed dashed;border-color:#666 transparent transparent transparent}
 .kind ul{height:52px;float:right;width:368px}
 .kind1 ul{height:52px;float:right;width:368px}
-.kind ul li{float:left;width:92px;height:30px;line-height:26px}
-.kind1 ul li{float:left;width:92px;height:30px;line-height:26px}
+.kind ul li{float:left;width:92px;height:35px;line-height:26px}
+.kind1 ul li{float:left;width:92px;height:35px;line-height:26px}
 .kind ul li a{display:inline-block;width:92px;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap}
 .kind1 ul li a{display:inline-block;width:92px;overflow:hidden;text-overflow:ellipsis;-o-text-overflow:ellipsis;white-space:nowrap}
 
@@ -160,7 +170,5 @@ li{list-style:none}
 .kind .kind-7-10{background-position:-195px -440px}
 
 
-.logo a{position:absolute;right:231px;bottom:31.2%;background:url(/static/img/shoucang.png)}
 
-
-.bottom{position:relative;z-index:2;line-height:35px;text-align:center;color:#CCC;background-color:#FFF;border-top:#CCC 1px solid}
+.bottom{position:relative;height:140px;z-index:2;color:gray;margin-top:110px;line-height:35px;text-align:center;border-top:#CCC 1px solid}

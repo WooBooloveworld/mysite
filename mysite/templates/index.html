@@ -24,9 +24,13 @@ var _hmt = _hmt || [];
 <body>
     <div class="container">
         <div class="wall">
-          <div class="shoucang">
-            <img src="{% static "img/shoucang.png" %}" style="position:absolute;left:10% ; top:1%">
+        <div class="header">
+        <div class="inner">
+          <div class="header_logo">网购导航</div>
+          <div class="header_link">
           </div>
+        </div>
+        </div>
         </div>  
         <div class="walllist">
 
@@ -47,7 +51,7 @@ var _hmt = _hmt || [];
                       </li>
                       <li>
                         <img src="{% static "img/suning.png" %}" alt="" width="16" height="16">
-                        <a target="_blank" href="http://www.suning.com">苏宁易购
+                        <a target="_blank" href="http://www.suning.com">苏宁易购</a>
                       <li>
                         <img src="{% static "img/yamaxun.png" %}"  alt="" width="16" height="16">
                         <a target="_blank" href="http://www.Amazon.cn/">亚马逊</a>
@@ -57,12 +61,20 @@ var _hmt = _hmt || [];
                         <a target="_blank" href="http://www.vip.com/">唯品会</a>
                       </li>
                       <li>
-                        <img src="{% static "img/juanpi.png" %}"  alt="" width="16" height="16">
-                        <a target="_blank" href="http://www.juanpi.com/">卷皮</a>
-                      </li>
-                      <li>
                         <img src="{% static "img/mogujie.png" %}"  alt="" width="16" height="16">
                         <a target="_blank" href="http://www.mogujie.com/">蘑菇街</a>
+                      </li>
+                      <li>
+                        <img src="{% static "img/meilishuo.png" %}"  alt="" width="16" height="16">
+                        <a target="_blank" href="http://www.meilishuo.com/">美丽说</a>
+                      </li>
+                      <li>
+                        <img src="{% static "img/xiaohongshu.png" %}"  alt="" width="16" height="16">
+                        <a target="_blank" href="http://www.xiaohongshu.com/">小红书</a>
+                      </li>
+                      <li>
+                        <img src="{% static "img/juanpi.png" %}"  alt="" width="16" height="16">
+                        <a target="_blank" href="http://www.juanpi.com/">卷皮</a>
                       </li>
                       <li>
                         <img src="{% static "img/dangdang.png" %}"  alt="" width="16" height="16">
@@ -73,28 +85,20 @@ var _hmt = _hmt || [];
                         <a target="_blank" href="http://sh.jumei.com//">聚美优品</a>
                       </li>
                       <li>
-                        <img src="{% static "img/meilishuo.png" %}"  alt="" width="16" height="16">
-                        <a target="_blank" href="http://www.meilishuo.com/">美丽说</a>
-                      </li>
-                      <li>
                         <img src="{% static "img/yihaodian.png" %}"  alt="" width="16" height="16">
                         <a target="_blank" href="http://http://www.yhd.com/">1号店</a>
                       </li>
                       <li>
-                        <img src="{% static "img/xiaohongshu.png" %}"  alt="" width="16" height="16">
-                        <a target="_blank" href="http://www.xiaohongshu.com/">小红书</a>
-                      </li>
-                      <li>
-                        <img src="{% static "img/juhuasuan.png" %}" alt="" width="16" height="16">
-                        <a target="_blank" href="http://ju.taobao.com/">聚划算</a>
+                        <img src="{% static "img/beibei.png" %}" alt="" width="16" height="16">
+                        <a target="_blank" href="http://www.beibei.com/">贝贝</a>
                       </li>
                       <li>
                         <img src="{% static "img/kaola.png" %}"  alt="" width="16" height="16">
                         <a target="_blank" href="http://www.kaola.com/">考拉海购</a>
                       </li>
                       <li>
-                        <img src="{% static "img/zhide.png" %}"  alt="" width="16" height="16">
-                        <a target="_blank" href="http://www.smzdm.com/">什么值得买</a>
+                        <img src="{% static "img/miya.png" %}"  alt="" width="16" height="16">
+                        <a target="_blank" href="http://www.mia.com/">蜜芽</a>
                       </li>
                     </ul>
                 </div>
@@ -147,7 +151,6 @@ var _hmt = _hmt || [];
                             <li class="hide"><a data-desc="一个中文数学博客" target="_blank" href="http://xuefuzi.com/">学夫子</a></li>
                             <li><a data-desc="欧拉计划，一个解数学题的网站" target="_blank" href="http://projecteuler.net/">Project Euler</a></li>
                             <li class="hide"><a data-desc="一个整理了很多整数数列的网站" target="_blank" href="http://oeis.org/">搜数列</a></li>
-                            <li><a data-desc="国际最知名的数学问答网站国际最知名的数学问答网站国际最知名的数学问答网站国际最知名的数学问答网站国际最知名的数学问答网站" target="_blank" href="http://mathoverflow.net/">MathOverflow</a></li>
                             <li class="hide"><a data-desc="Wolfram旗下的数学百科网站。" target="_blank" href="http://mathworld.wolfram.com/">MathWorld</a></li>
                             <li class="hide"><a data-desc="一个95后数学爱好者的博客" target="_blank" href="http://exp618.com/">Exp618</a></li>
                             <li class="hide"><a data-desc="一个数学趣题网站一个数学趣题网站一个数学趣题网站一个数学趣题网站" target="_blank" href="http://www.mathpuzzle.com/">Mathpuzzle</a></li>
@@ -817,22 +820,11 @@ var _hmt = _hmt || [];
                     </div>
                 </div>
             </div>
-            <div class="logos">
-                <a target="_blank" href="" class="logos-guokr" id="guokrLogo" style="bottom: 45px;"></a>
-                <img src="{% static "img/shoucang.png" %}" style="position:relative;left:41% ; top:80%">
 
-            </div>
-            <div class="bottom" id="bottom">
-                <p>
-                    ©2017收藏夹&nbsp;&nbsp;&nbsp;&nbsp;宁ICP证100430号&nbsp;&nbsp;&nbsp;&nbsp;宁网文[2015] 0609-239号&nbsp;&nbsp;&nbsp;&nbsp;新出发宁零字东150005号
-                </p>
-                <p style="line-height: 1em;">
-                    <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502007133" style="text-decoration:none;color: #999;"><img src="{% static "img/0Al5wQUv5IAuo87evbERy190Y83ENmP9OpIs8Stm2lMUAAAAFAAAAFBO.png" %}" style="vertical-align: text-top; width: 13px; height: 13px;">京公网安备11010502007133号</a>
-                </p>
-            </div>
         </div>
     </div>
-    <script type="text/javascript" async="" src="{% static "js/dc.js" %}"></script><script>
+    <script type="text/javascript" async="" src="{% static "js/dc.js" %}"></script>
+    <script>
     var ukey = '',
         g_page_name = 'anywhereIndexPage',
         GJS_VERSION = 'v2',
@@ -841,13 +833,18 @@ var _hmt = _hmt || [];
     <script src="{% static "js/I.js"%}"></script>
     <script src="{% static "js/anywhere.js"%}"></script>
 
-    <div class="vertical-menu">
-      <a href="#" class="active">女装</a>
-      <a href="#zhibo">男装</a>
-      <a href="#zhuiju">鞋靴</a>
-      <a href="#dianying">箱包</a>
-      <a href="#shouji">配饰</a>
+    <div class="bottom" id="bottom">
+      <p>
+      关于这个网站以及我的联系方式
+      </p>
+      <p>
+        ©2017收藏夹&nbsp;&nbsp;&nbsp;&nbsp;宁ICP证100430号&nbsp;&nbsp;&nbsp;&nbsp;宁网文[2015] 0609-239号&nbsp;&nbsp;&nbsp;&nbsp;新出发宁零字东150005号
+      </p>
+      <p style="line-height: 1em;">
+      <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502007133" style="text-decoration:none;color: #999;"><img src="{% static "img/0Al5wQUv5IAuo87evbERy190Y83ENmP9OpIs8Stm2lMUAAAAFAAAAFBO.png" %}" style="vertical-align: text-top; width: 13px; height: 13px;">京公网安备11010502007133号</a>
+      </p>
     </div>
+
 
 
 
